@@ -1,0 +1,25 @@
+ADJECTIVE fluffy
+ADJECTIVE zesty
+ADJECTIVE boisterous
+ADJECTIVE stinky
+ADJECTIVE aromatic
+NOUN squeegee
+NOUN pupil
+NOUN zipper
+NOUN toenail
+NOUN coconut
+VERB skedaddle
+VERB pocket
+VERB film
+VERB zip
+VERB tie
+VERB_ING relaxing
+VERB_ING skydiving
+VERB_ING zipping
+VERB_ING shaving
+VERB_ING polishing
+PROPER_NOUN Guido van Rossum
+PROPER_NOUN Tom Bergin
+PROPER_NOUN Old McDonald
+PROPER_NOUN Mao Zedong
+PROPER_NOUN Lawrence Kohlberg

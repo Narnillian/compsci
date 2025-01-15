@@ -1,0 +1,25 @@
+ADJECTIVE sunny
+ADJECTIVE colossal
+ADJECTIVE creamy
+ADJECTIVE sharp
+ADJECTIVE fuzzy
+NOUN beach
+NOUN mansion
+NOUN coffee shop
+NOUN forest
+NOUN stadium
+VERB soar
+VERB burst
+VERB intensify
+VERB charm
+VERB motivate
+VERB_ING shining
+VERB_ING sprinting
+VERB_ING gliding
+VERB_ING wandering
+VERB_ING conquering
+PROPER_NOUN Leonardo da Vinci
+PROPER_NOUN Cleopatra
+PROPER_NOUN William Shakespeare
+PROPER_NOUN Beyoncé
+PROPER_NOUN Elon Musk

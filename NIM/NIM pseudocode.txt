@@ -1,0 +1,88 @@
+#basic functionality:
+sticks_remaining = 10
+turn = 0
+hat = []
+chosen = []
+
+assemble_hat(sticks, hat, chosen):
+	for i in range(len(hat), sticks):
+		this_list = []
+		if i < 2:
+			for j in range(i):
+				this_list.append(i+1)
+		this_list = [1,2,3]
+		hat.append(this_list)
+		chosen.append(0)
+	return hat, chosen
+
+cpu_turn(sticks_remaining, hat, chosen):
+	choice = random.choice(hat[sticks_remaining-1])
+	chosen[sticks_remaining] = choice
+	return sticks_remaining, chosen
+
+cpu_win(hat, chosen):
+	for i in range(len(chosen)):
+		if (chosen[i] != 0):
+			hat[i].append(chosen)
+	return(hat)
+
+player_turn(sticks_remaining):
+	while (unverified):
+		choice = input("How many sticks would you like to choose?")
+		#verify input -- must be int, <= 3, <= sticks_remaining
+	return sticks_remaining - choice
+
+random_turn(sticks_remaining):
+	if sticks_remaining <= 3:
+		return random.choice(0,3)
+	return random.choice(0,sticks_remaining)
+
+train_cpu(sticks_remaining, hat, chosen):
+	for i in range(1000):
+		sticks = sticks_remaining
+		player = random.randint(0,1)
+			while sticks:
+				if(player):
+					sticks = random_turn(sticks)
+				else:
+					sticks, chosen = cpu_turn(sticks, hat, chosen)
+				player = abs(player-1)
+			if(not player):
+				hat = cpu_win(hat, chosen)
+	return hat
+	
+
+#main:
+while True:
+	sticks_remaining = input("How many sticks would you like to play with?")
+	#verify -- must be int, <= 5
+	hat, chosen = assemble_hat(sticks_remaining)
+	hat = train(sticks_remaining, hat, chosen)
+	first_player = lower(input("Would you like to go first?"))
+	player = 0
+	if first_player == "yes": player = 1
+	while(sticks_remaining):
+		if(player):
+			sticks = player_turn(sticks)
+		else:
+			sticks, chosen = cpu_turn(sticks, hat, chosen)
+		player = abs(player-1)
+	print("And the winner is...")
+	if(player):
+		print("You!")
+	else:
+		hat = cpu_win(hat, chosen)
+		print("The Computer!")
+	print()
+	play_again = lower(input("Would you like to play again?"))
+	if play_again == "no": break
+		
+		
+		
+#complications
+"""
+save hat to file, read from it when beginning the program.
+"""
+"""
+more versatility to game rules -- can change limit on pickups/turn, etc
+"""

@@ -1,0 +1,3 @@
+[submodule "Militaresque"]
+	path = Militaresque
+	url = https://github.com/Narnillian/militaresque-compsci.git

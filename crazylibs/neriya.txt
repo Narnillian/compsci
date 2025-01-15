@@ -1,0 +1,25 @@
+ADJECTIVE fickle
+ADJECTIVE noisy
+ADJECTIVE beauteous
+ADJECTIVE quick
+ADJECTIVE turquoise
+NOUN mess
+NOUN house
+NOUN computer
+NOUN mom
+NOUN life
+VERB attach
+VERB swing
+VERB charge
+VERB wear
+VERB ignore
+VERB_ING laughing
+VERB_ING seeing
+VERB_ING typing
+VERB_ING sleeping
+VERB_ING intercepting
+PROPER_NOUN Dr. Sharfman
+PROPER_NOUN Uzbekistan
+PROPER_NOUN Bob Marley
+PROPER_NOUN Disney Animation
+PROPER_NOUN WickedlySmart, LLC

@@ -1,0 +1,25 @@
+ADJECTIVE grimy  
+ADJECTIVE sullen
+ADJECTIVE jocular
+ADJECTIVE tropical 
+ADJECTIVE lush
+NOUN gruel
+NOUN jockey
+NOUN Rabbeinu Tam
+NOUN a lighthouse
+NOUN Porsche 911 GT3 RS
+VERB titter
+VERB schmooze
+VERB futz
+VERB burp
+VERB misconstrued 
+VERB_ING sewing
+VERB_ING regurgitating
+VERB_ING seizing
+VERB_ING spazzing
+VERB_ING smelting
+PROPER_NOUN Shulchan Aruch
+PROPER_NOUN Morgan Freeman 
+PROPER_NOUN Leo Messi
+PROPER_NOUN Mad Libs
+PROPER_NOUN Twelve Tables

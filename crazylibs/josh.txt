@@ -1,0 +1,25 @@
+ADJECTIVE Sparkling
+ADJECTIVE Cozy
+ADJECTIVE Whimsical
+ADJECTIVE Mystical
+ADJECTIVE happy
+NOUN drake 
+NOUN bee
+NOUN walmart 
+NOUN kitkat
+NOUN michael jackson
+VERB run
+VERB Jump
+VERB Read
+VERB Sing
+VERB Explore
+VERB_ING Running
+VERB_ING Swimming
+VERB_ING Singing
+VERB_ING Writing
+VERB_ING Jumping
+PROPER_NOUN Paris
+PROPER_NOUN Microsoft
+PROPER_NOUN Amazon
+PROPER_NOUN Shakespeare
+PROPER_NOUN Mount Everest
